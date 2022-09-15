@@ -12,8 +12,8 @@ public class Digits
 		System.out.print("Please enter a two-digits number: ");
 		int n = prompt.nextInt();
 		
-		System.out.print("Tens-place digits: " + Math.floor(n/10));
-		System.out.print("Ones-place digits: " + n);
+		System.out.println("Tens-place digit: " + Math.floor(n/10));
+		System.out.print("Ones-place digit: " + (n - (Math.floor(n/10))*10));
 
 	}
 
