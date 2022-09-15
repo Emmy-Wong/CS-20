@@ -12,9 +12,20 @@ public class Digits
 		System.out.print("Please enter a two-digits number: ");
 		int n = prompt.nextInt();
 		
-		System.out.println("Tens-place digit: " + Math.floor(n/10));
-		System.out.print("Ones-place digit: " + (n - (Math.floor(n/10))*10));
-
+		if (n>99)
+		{
+			
+			System.out.print("Error. You must enter a two-digits number.");
+			
+		}
+		else
+		{
+			
+		System.out.println("Tens-place digit: " + (n/10));
+		System.out.print("Ones-place digit: " +  (n%10));
+		
+		}
+		
 	}
 
 }
