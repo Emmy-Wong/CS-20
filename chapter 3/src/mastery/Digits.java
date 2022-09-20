@@ -7,10 +7,10 @@ public class Digits
 
 	public static void main(String[] args)
 	{
-		Scanner prompt = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);
 		
 		System.out.print("Enter a three-digit number: ");
-		int n = prompt.nextInt();
+		int n = userinput.nextInt();
 		
 		if (n>999)
 		{
@@ -24,7 +24,8 @@ public class Digits
 			int tens = n%100/10;
 			int ones = n%100%10;
 			
-			System.out.println("The hundreds place digit is: " + hundreds + "\nThe tens place digit is: " + tens + "\nNickels: " + nickel + "\nPennies: " + penny
+			System.out.println("The hundreds place digit is: " + hundreds + "\nThe tens place digit is: " + tens + "\nThe ones place is: " + ones );
+			
 		}
 		
 	}

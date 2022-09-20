@@ -8,16 +8,16 @@ public class DistanceP2
 	public static void main(String[] args)
 	{
 		
-		Scanner prompt = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);
 		
 		System.out.println("Please enter the first segment:");
-		double x = prompt.nextDouble();
+		double x = userinput.nextDouble();
 		
 		System.out.println("Please enter the second segment:");
-		double y = prompt.nextDouble();
+		double y = userinput.nextDouble();
 		
 		System.out.println("Please enter the third segment:");
-		double z = prompt.nextDouble();
+		double z = userinput.nextDouble();
 		
 		
 		double d = x + y + z;

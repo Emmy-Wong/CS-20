@@ -7,10 +7,10 @@ public class Change {
 
 	public static void main(String[] args) {
 		
-		Scanner prompt = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);
 		
-		System.out.println("Enter the change in cents: ");
-		int change = prompt.nextInt();
+		System.out.print("Enter the change in cents: ");
+		int change = userinput.nextInt();
 		
 		if  (change>100)
 		{

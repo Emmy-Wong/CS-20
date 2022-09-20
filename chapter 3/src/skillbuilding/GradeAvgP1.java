@@ -8,22 +8,22 @@ public class GradeAvgP1
 	public static void main(String[] args)
 	{
 		
-		Scanner prompt = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);
 		
 		System.out.println("Please enter the first grade: ");
-		int first = prompt.nextInt();
+		int first = userinput.nextInt();
 		
 		System.out.println("Please enter the second grade: ");
-		int second = prompt.nextInt();
+		int second = userinput.nextInt();
 		
 		System.out.println("Please enter the third grade: ");
-		int third = prompt.nextInt();
+		int third = userinput.nextInt();
 		
 		System.out.println("Please enter the fourth grade: ");
-		int fourth = prompt.nextInt();
+		int fourth = userinput.nextInt();
 		
 		System.out.println("Please enter the fifth grade: ");
-		int fifth = prompt.nextInt();
+		int fifth = userinput.nextInt();
 		
 		double x = (Math.round(first + second + third + fourth + fifth)/5);
 		

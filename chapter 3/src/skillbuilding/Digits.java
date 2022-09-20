@@ -7,10 +7,10 @@ public class Digits
 
 	public static void main(String[] args)
 	{
-		Scanner prompt = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);
 		
 		System.out.print("Please enter a two-digit number: ");
-		int n = prompt.nextInt();
+		int n = userinput.nextInt();
 		
 		if (n>99)
 		{
