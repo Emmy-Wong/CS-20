@@ -29,12 +29,13 @@ public class Spending
 		System.out.print("Rent: $");
 		int rent = userinput.nextInt();
 		total += rent;
-		int percentage = total/100;
+		double percentage = total/100;
 		
 		System.out.println("\nCategory\tBudget");
-		System.out.println("Food\t" + (dc.format(food/percentage)) + " %");
+		System.out.println("Food\t\t" + (dc.format(food/percentage)) + " %");
 		System.out.println("Clothing\t" + (dc.format(clothing/percentage)) + " %");
 		System.out.println("Entertainment\t" + (dc.format(entertainment/percentage)) + " %");
+		System.out.println("Rent\t\t" + (dc.format(rent/percentage)) + " %");
 
 	}
 
