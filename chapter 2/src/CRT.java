@@ -7,11 +7,12 @@ public class CRT
 		
 	/**
 		 3.
-		 /*
-		 Average.java
-		 Calculate test averages
-		 Emmy
-		 September, 13, 2022 
+		 /**
+		 *Average.java
+		 *Calculate test averages
+		 *Emmy
+		 *September, 13, 2022
+		 */
 		 	
 		4.//The AverageScore class displays the average of a set of scores.
 		
