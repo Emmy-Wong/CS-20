@@ -9,21 +9,22 @@ public class Digits
 	{
 		Scanner prompt = new Scanner(System.in);
 		
-		System.out.print("Please enter a two-digits number: ");
+		System.out.print("Enter a three-digit number: ");
 		int n = prompt.nextInt();
 		
-		if (n>99)
+		if (n>999)
 		{
 			
-			System.out.print("Error. You must enter a two-digits number.");
+			System.out.print("Error. You must enter a three-digit number.");
 			
 		}
 		else
 		{
+			int hundreds = n/100;
+			int tens = n%100/10;
+			int ones = n%100%10;
 			
-		System.out.println("Tens-place digit: " + (n/10));
-		System.out.print("Ones-place digit: " +  (n%10));
-		
+			System.out.println("The hundreds place digit is: " + hundreds + "\nThe tens place digit is: " + tens + "\nNickels: " + nickel + "\nPennies: " + penny
 		}
 		
 	}

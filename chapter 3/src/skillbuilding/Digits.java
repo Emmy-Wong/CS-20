@@ -9,7 +9,7 @@ public class Digits
 	{
 		Scanner prompt = new Scanner(System.in);
 		
-		System.out.print("Please enter a two-digits number: ");
+		System.out.print("Please enter a two-digit number: ");
 		int n = prompt.nextInt();
 		
 		if (n>99)
