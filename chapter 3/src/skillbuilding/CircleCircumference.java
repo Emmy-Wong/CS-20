@@ -3,9 +3,11 @@ package skillbuilding;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class CircleCircumference {
+public class CircleCircumference
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		
 		Scanner userinput = new Scanner(System.in);
 		DecimalFormat dc = new DecimalFormat("0.0");

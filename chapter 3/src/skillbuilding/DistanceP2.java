@@ -1,6 +1,7 @@
 package skillbuilding;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class DistanceP2
 {
@@ -19,10 +20,12 @@ public class DistanceP2
 		System.out.println("Please enter the third segment:");
 		double z = userinput.nextDouble();
 		
-		
 		double d = x + y + z;
+	
+		DecimalFormat dc = new DecimalFormat("0.0");
 		
-		System.out.println("Distance: "+ d +" km");
+		System.out.println("Distance: "+ (dc.format(d)) +" km");
+		
 	}
 
 }

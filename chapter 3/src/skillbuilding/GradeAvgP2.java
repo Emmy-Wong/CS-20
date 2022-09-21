@@ -1,6 +1,8 @@
 package skillbuilding;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
+
 
 public class GradeAvgP2
 {
@@ -10,29 +12,31 @@ public class GradeAvgP2
 		
 		Scanner userinput = new Scanner(System.in);
 		
-		int x = 0;
+		double x = 0;
 		
 		System.out.println("Please enter the first grade: ");
-		int first = userinput.nextInt();
+		double first = userinput.nextInt();
 		x += first;
 		
 		System.out.println("Please enter the second grade: ");
-		int second = userinput.nextInt();
+		double second = userinput.nextInt();
 		x += second;
 		
 		System.out.println("Please enter the third grade: ");
-		int third = userinput.nextInt();
+		double third = userinput.nextInt();
 		x += third;
 		 
 		System.out.println("Please enter the fourth grade: ");
-		int fourth = userinput.nextInt();
+		double fourth = userinput.nextInt();
 		x += fourth;
 		
 		System.out.println("Please enter the fifth grade: ");
-		int fifth = userinput.nextInt();
+		double fifth = userinput.nextInt();
 		x += fifth;
 		
-		System.out.print("Average: " + (Math.round (x)/5));
+		DecimalFormat dc = new DecimalFormat("0.0");
+		
+		System.out.print("Average: " + (dc.format ((x)/5)));
 		
 	}
 

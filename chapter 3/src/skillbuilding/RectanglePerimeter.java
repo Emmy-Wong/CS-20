@@ -1,8 +1,10 @@
 package skillbuilding;
 
-public class RectanglePerimeter {
+public class RectanglePerimeter
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		
 		int w = 4;
 		int l = 13;
